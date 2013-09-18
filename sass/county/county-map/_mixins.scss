@@ -1,0 +1,46 @@
+/* 
+Built by @funzeye for @HoverCraftie
+URL: http://hovercraftstudio.ie 
+*/
+
+@mixin mapstyle($style) {
+	@if $style == provinces {
+		color: #b0b0b0;
+		//Connacht
+		.mo,  .so,  .rn,  .ga, .le {
+			color: green;
+		}
+		//Leinster 
+		.db,  .cw,  .ww,  .wx,  .la, .kd, .kl, .wh, .mh, .oy, .lh, .lg  {
+			color: blue;
+		}
+		//Ulster 
+		.an,  .ar,  .dl,  .do,  .de, .ty, .fe, .cn, .mn {
+			color: purple;
+		}
+		//Munster 
+		.ke,  .ck,  .tp,  .li,  .ce, .wd {
+			color: red;
+		}
+	}
+	@else if $style == northern-ireland {
+		color:#00aeef;
+	
+		.an, .ar, .do, .de, .ty, .fe {
+  			color:#ff7474;
+		}		
+	}
+	@else if $style == mayo-for-sam {
+		color: green;
+		.mo {
+  			color:red;
+		}	
+		.db {
+			color:skyblue;
+		}	
+	}
+	@else {
+		color: #999;
+	}
+} //mapstyle mixin
+

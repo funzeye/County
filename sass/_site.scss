@@ -1,0 +1,39 @@
+/* 
+Built by @funzeye for @HoverCraftie
+URL: http://hovercraftstudio.ie 
+*/
+
+//All this is just sample css, should be removed and replaced with your own
+
+.wrap{
+	padding: 3em 5em;
+	width:600px;
+	margin:auto;
+}
+
+
+#county-map-section h1:not(.icon-header), #county-icon-section h1:not(.icon-header)  {
+    font-size: 2em;
+    padding: 0.5em 0;
+    text-align: center;
+}
+.icon-header{
+	font-size:2.5em;
+	padding: 1em 0;
+	text-align: center;
+}
+
+#banner > .wrap h1 {
+    font-size: 3em;
+}
+#banner > .wrap p {
+    margin: 5px 0 5px;
+	padding: 0;
+	color: #474747;
+	line-height: 1.8em;
+	font-family: "FS me","FS Me Web Light", Helvetica, Arial, Verdana , sans-serif;
+	font-size-adjust: 0.53;
+	font-weight: 200;
+	font-style: normal;
+}
+
