@@ -1,0 +1,18 @@
+.grid {
+    @include clearfix; 
+    margin: 0 -1em;
+}
+.grid-unit {
+    @include box-sizing(border-box);
+    display: block;
+    float: left;
+    padding: 0 1em;
+    width: 100%;
+}
+
+//use like this in your base sass files:
+//add the class .grid-unit to your html elements
+//add .grid class to their parent
+//.layout .grid-unit {
+//  width: 20%;
+//}

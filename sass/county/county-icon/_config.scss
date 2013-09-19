@@ -27,8 +27,9 @@ $county-icon-font-location: '../fonts/county-icon/countyicon-webfont';
 
 .county-icon-header {
 	font-family: $county-icon-font-family;
-	float:left;
+	display: inline-block;
 	font-size:3em;
+	line-height: 1.2;
 }
 
 //can be deleted - just used for sample index page

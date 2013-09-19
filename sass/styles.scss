@@ -3,8 +3,11 @@ Built by @funzeye for @HoverCraftie
 URL: http://hovercraftstudio.ie 
 */
 
-@import "reset";
+// Media query support required?
+$media-queries-supported : true;
 
-@import "county/county";
+// Opacity support in IE required via the proprietry ActiveX?
+$ie8-opacity-supported 	 : false;
 
-@import "site";
+// Import all SASS imports
+@import "imports";

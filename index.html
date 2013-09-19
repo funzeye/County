@@ -20,21 +20,74 @@ The MIT License (MIT) Copyright (c) 2013 funzeye
 	<meta name="MobileOptimized" content="320"> 
 	
 	<link href="css/styles.css" rel="stylesheet"/>
+	<!--<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>-->
 </head>
 <body>
 	<div class="container">
+		<section id="intro">
+			<div class="wrap">
+				<ul class="county-map" id="map-header"> 
+					<li data-county="an" class="an">a</li>
+					<li data-county="ar" class="ar">b</li>
+					<li data-county="cw" class="cw">c</li>
+					<li data-county="cn" class="cn">d</li>
+			        <li data-county="ce" class="ce">e</li>
+					<li data-county="ck" class="ck">f</li>
+					<li data-county="de" class="de">g</li>
+					<li data-county="dl" class="dl">h</li>
+					<li data-county="do" class="do">i</li>
+					<li data-county="db" class="db">j</li>
+					<li data-county="fe" class="fe">k</li>			
+					<li data-county="ga" class="ga">l</li>
+					<li data-county="ke" class="ke">m</li>
+					<li data-county="kd" class="kd">n</li>
+					<li data-county="kl" class="kl">o</li>
+					<li data-county="la" class="la">p</li>
+					<li data-county="le" class="le">q</li>
+					<li data-county="li" class="li">r</li>
+					<li data-county="lg" class="lg">s</li>
+					<li data-county="lh" class="lh">t</li>
+					<li data-county="mo" class="mo">u</li>
+					<li data-county="mh" class="mh">v</li>			
+					<li data-county="mn" class="mn">w</li>
+					<li data-county="oy" class="oy">x</li>
+					<li data-county="rn" class="rn">y</li>
+					<li data-county="so" class="so">z</li>	
+			        <li data-county="tp" class="tp">A</li>	
+			        <li data-county="ty" class="ty">B</li>
+					<li data-county="wd" class="wd">C</li>
+					<li data-county="wh" class="wh">D</li>						
+					<li data-county="wx" class="wx">E</li>
+					<li data-county="ww" class="ww">F</li>
+				</ul> <!-- county -->
+		</section>
+		<section class="nav">
+				<nav class="cl-effect-18">					
+					<a href="http://www.hovercraftstudio.ie/" target="_blank" data-hover="About Us">About Us</a>
+					<a href="https://github.com/funzeye/County" target="_blank" data-hover="View On GitHub">View On GitHub</a>
+					<a href="https://github.com/funzeye/County/archive/master.zip" target="_blank" data-hover="Download Fonts Now">Download Fonts</a>				
+					<a href="https://twitter.com/share?url=https%3A%2F%2Ffunzeye.github.io%2FCounty%2F&via=hovercraftie&hashtags=County" target="_blank" data-hover="Tell Others">Tell Others</a>
+					<a href="mailto:info@hovercraftstudio.ie?subject=Requesting Font" data-hover="Request A Font">Request A Font</a>
+				</nav>
+			</section>
 		<section id="banner">
 			<div class="wrap">
+				<div class="header-wrap">
 				<div class="county-icon-header">Z</div>
 				<h1>County</h1>
-				<p>This project contains two different fonts. The first font is
-					called 'County-Map'. This is a symbol font that allows you too make up the map of
-					Ireland. Each symbol represents a county and when used together all symbols  fit together to make up a complete map. Each
+				</div>
+				<p>
+					'County' comprises a pair of symbol fonts representing the counties of Ireland. The fonts can be added to your web projects, be styled and modified using only HTML and CSS. <br>
+					<h2>County-Map Font</h2>
+					County contains two different fonts. The first font is
+					called 'County-Map'. This is a symbol font that allows you to put together a map of
+					Ireland make solely of font symbols. Each symbol represents a county and when used together all symbols can be fitted together to make up a complete map. Each
 					County can be styled and used indepentently.
-					The second font is called 'County-Icon'. This is similar in many ways to the previous
+					<h2>County-Icon Font</h2>
+					The second font is called 'County-Icon'. This is similar in many ways to the County-Map
 					font in that it is a symbol font that represents the counties of Ireland.
-					It differs from the previous font however, in that it is optimatized to be 
-					used alongside regular none symbol fonts and text. Each symbol fits the size of a regular text element in that the heights,widths and positions are approximate to regular text fonts. In other words setting their font sizes will give you the same sized elements as regular text fonts. The County-Map font is not ideal for this type of usage as the county-map symbols are positioned relatively to the other counties and if they were to be used alongside regular text fonts would need to be set at a different font size.
+					It differs from the previous font however, in that it is optimized to be 
+					used alongside regular none-symbol fonts and text. Each symbol fits the size of a regular text element in that the heights, widths and positions are approximate to regular text fonts. The County-Map font is not ideal for this type of usage as the County-Map symbols are sized and positioned relatively to the other counties on the map.
 					Both fonts have their own unique use cases and some examples can be seen below.
 
 				</p>
@@ -45,6 +98,9 @@ The MIT License (MIT) Copyright (c) 2013 funzeye
 
 			<div class="wrap">
 				<h1 class="icon-header">County-Map Font</h1>
+				<p>
+					Each of the counties exists as a glyph within an SVG font. When used together they form part of a bigger whole, i.e. the island of Ireland. Each individual county can be styled independently of the others, counties can also be left of the map altogether. You can have as many or as few counties on the map as you wish, aywhere from 1 to 32. If you are interested in developing using this font then please view GitHub for further info. See below a set of example I have done up.
+				</p>
 				<h1>Plain</h1>
 				<ul class="county-map" id="plain"> 
 					<li data-county="an" class="an">a</li>
@@ -229,6 +285,11 @@ The MIT License (MIT) Copyright (c) 2013 funzeye
 		<section id="county-icon-section">
 			<div class="wrap">
 				<h1 class="icon-header">County-Icon Font</h1>
+				<p>
+					As I mentioned above this font has been optimized to work alongside regular font types. As you can see from the samples below the size and shape are equivlant ot their text counterparts. All the elements below identical font styling. 
+					The county symbols replace regular alphabetical characters. As you see from the below example, a CSS class is set to be equal to 'county-icon'. With this in place, wherever a letter from a to z or A to F is used, it will be replaced by the County-Icon glyph for that county.
+					If you are interested in developing using this font then please view GitHub for further info.
+				</p>
 				<table>
 
 				    <tr>
@@ -440,7 +501,18 @@ The MIT License (MIT) Copyright (c) 2013 funzeye
 				</table>
 			</div> <!--wrap-->
 		</section> <!-- county-icon-section-->
+		<footer role="contentinfo" class="l-footer">
+			<small> v2.0 by <a href="http://hovercraftstudio.ie" target="_blank">Hover Craft Studio Ltd.</a></small> 
+			<small id="footerCopyright">&copy; 2013 - Hover Craft Studio Ltd.</small>
+			<small>Thanks to:
+			<a href="http://twitter.com/funzeye" target="_blank">David Kivlehan</a>, 
+			<a href="http://visualstudiogallery.msdn.microsoft.com/03e3117d-490b-4711-a2a1-cb36f5adc73e" target="_blank">Rock Hammer For MVC</a>, <a href="http://intridea.github.io/stately/" target="_blank">Stately</a>
+			</small>
+		</footer>
 	</div> <!-- container -->
+	 <!-- javascript -->
+    <!--<script src="js/MoveMap.js"></script>-->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </body>
 </html>
 
