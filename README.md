@@ -17,7 +17,7 @@ Contains two different custom svg symbol fonts, both of which comprise the count
 
 This project contains two different fonts. The first font is called 'County-Map'. This is a symbol font that allows you too make up the map of Ireland. Each symbol represents a county and when used together all symbols  fit together to make up a complete map. Each County can be styled and used indepentently. The second font is called 'County-Icon'. This is similar in many ways to the previous font in that it is a symbol font that represents the counties of Ireland. It differs from the previous font however, in that it is optimatized to be  used alongside regular none symbol fonts and text. Each symbol fits the size of a regular text element in that the heights,widths and positions are approximate to regular text fonts. In other words setting their font sizes will give you the same sized elements as regular text fonts. The County-Map font is not ideal for this type of usage as the county-map symbols are positioned relatively to the other counties and if they were to be used alongside regular text fonts would need to be set at a different font size. Both fonts have their own unique use cases and some examples of those can be seen on the sample Index.html page
 
-#Microsite
+##Microsite
 [County Microsite](https://funzeye.github.com/County/)
 
 ##Author
