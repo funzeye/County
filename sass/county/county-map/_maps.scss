@@ -1,0 +1,23 @@
+/* 
+Built by @funzeye for @HoverCraftie
+URL: http://hovercraftstudio.ie 
+*/
+/*Credit to https://github.com/intridea/stately for this styling */
+
+//these sample ids are from county page:
+
+#provinces {	
+    @include mapstyle(provinces);
+} // #provinces
+
+#northern-ireland {	
+    @include mapstyle(northern-ireland);		
+} // #northern-ireland
+
+#mayo-for-sam {
+    @include mapstyle(mayo-for-sam); 
+} // #mayo-for-sam
+
+#plain { 
+    @include mapstyle(plain); 
+} // #plain
