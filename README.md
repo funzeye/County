@@ -23,7 +23,7 @@ County contains two different fonts. The first font is called 'County-Map'. This
 ###County-Icon Font
 The second font is called 'County-Icon'. This is similar in many ways to the County-Map font in that it is a symbol font that represents the counties of Ireland. It differs from the previous font however, in that it is optimized to be used alongside regular none-symbol fonts and text. Each symbol fits the size of a regular text element in that the heights, widths and positions are approximate to regular text fonts. The County-Map font is not ideal for this type of usage as the County-Map symbols are sized and positioned relatively to the other counties on the map. 
 
-Both fonts have their own unique use cases and some examples can be seen below. Download the Fonts and get started straight away. As wel as the font files, there is sample HTML and CSS included in the download package to help you get started.
+Both fonts have their own unique use cases and some examples can be seen below. Download the Fonts and get started straight away. As well as the font files, there is sample HTML and CSS included in the download package to help you get started.
 ##Instructions
 
 ###Option 1 - Using CSS:
