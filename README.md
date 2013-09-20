@@ -39,7 +39,7 @@ I highly recommend minifying any css file that you specify in your html head.
 
 ###Option 2 - Using SASS:
 
-Inside this download package you will find three folders. One contains the fonts, one the sass files and one the css which was created from the sass. If you DO want ot work with sass you will add all 3 folders into your project. Each font has its own set of sass files for you to work with. The sass files all feed into one master/parent sass file called county.sass. If you compile this sass file to css you will then have all your county font css in that css file. You can then add a link to this css in your html head section like so:
+Inside this download package you will find three folders. One contains the fonts, one the sass files and one the css which was created from the sass. If you DO want ot work with sass you will add all 3 folders into your project. Each font has its own set of sass files for you to work with. The sass files all feed into one master/parent sass file called styles.sass. If you compile this sass file to css you will then have all your county font css in that css file. You can then add a link to this css in your html head section like so:
     
 ```html
 <link rel="stylesheet" href="path/to/county/css/styles.css">
