@@ -523,15 +523,15 @@ sub {
 
 a {
   text-decoration: none;
-  color: #dba935; }
+  color: #27ae60; }
   a:visited {
-    color: #eace8c; }
+    color: #60db94; }
   a:hover {
     text-decoration: underline;
-    color: #e3bb60; }
+    color: #36d278; }
   a:focus {
     outline: thin dotted;
-    color: #f2e0b7; }
+    color: #89e5b0; }
   a:hover, a:active {
     outline: 0; }
 
@@ -724,6 +724,13 @@ section h2 {
 
 h1 {
   margin: 0; }
+
+.code {
+  background-color: #473f3f;
+  border-radius: 2% 2% 2% 2%;
+  color: #eaefeb;
+  margin-bottom: 2em;
+  padding: 0.5em; }
 
 nav a {
   position: relative;

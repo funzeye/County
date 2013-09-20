@@ -99,7 +99,30 @@ The MIT License (MIT) Copyright (c) 2013 funzeye
 			<div class="wrap">
 				<h1 class="icon-header">County-Map Font</h1>
 				<p>
-					Each of the counties exists as a glyph within an SVG font which I created. When used together they form part of a bigger whole, i.e. the island of Ireland. Each individual county can be styled independently of the others, counties can also be left of the map altogether. You can have as many or as few counties on the map as you wish, anywhere from 1 to 32. If you are interested in developing using this font then please view GitHub for further info. See below a set of examples I have done up to show the usefulness of this font. Remember, the below are not images but fonts, styled using CSS.
+					Each of the counties exists as a glyph within an SVG font which I created. When used together they form part of a bigger whole, i.e. the island of Ireland. Each individual county can be styled independently of the others, counties can also be left of the map altogether. You can have as many or as few counties on the map as you wish, anywhere from 1 to 32. 
+					<h3>HTML</h3>
+<pre class="code">
+  &lt;ul class="county-map" id="plain"&gt;
+  	&lt;li data-county="an" class="an"&gt;a&lt;/li&gt; 
+  	&lt;li data-county="ar" class="ar"&gt;b&lt;/li&gt;
+  	&lt;li data-county="cw" class="cw"&gt;c&lt;/li&gt;
+  	...
+  	&lt;li data-county="so" class="so"&gt;z&lt;/li&gt;
+  	&lt;li data-county="tp" class="tp"&gt;A&lt;/li&gt;
+  	...
+  &lt;/tr&gt;
+</pre>
+<h3>CSS</h3>
+<pre class="code">
+.county-icon {
+	font-family: 'countymapregular';
+	color:#f0f0f0;//gray
+	...
+}
+   	...
+					</pre>
+
+					If you are interested in developing using this font then please <a href="https://github.com/funzeye/County" target="_blank">view GitHub</a> for further info. See below a set of examples I have done up to show the usefulness of this font. Remember, the below are not images but fonts, styled using CSS.
 				</p>
 				<h1>Plain</h1>
 				<ul class="county-map" id="plain"> 
@@ -287,8 +310,32 @@ The MIT License (MIT) Copyright (c) 2013 funzeye
 				<h1 class="icon-header">County-Icon Font</h1>
 				<p>
 					As I mentioned above this font has been optimized to work alongside regular font types. As you can see from the samples below the size and shape are equivalent to their text counterparts. The bottoms and tops of the counties should line up closely with regular text when written together. All the elements seen below, both counties and text, have identical font styling applied to them. 
-					The county symbols replace regular alphabetical characters. As you see from the below example, a CSS class (setting font to county-icon) is applied to letters of the alphabet. With this in place, wherever a letter from a to z or A to F is used, it will be replaced by the County-Icon glyph for that county.
-					If you are interested in developing using this font then please view GitHub for further info.
+					The county symbols replace regular alphabetical characters. As you see from the below example, a CSS class called county-icon (inside of which we set font to county-icon) is applied to letters of the alphabet. 
+					<h3>HTML</h3>
+					<pre class="code">
+&lt;table&gt;					
+	&lt;tr&gt;
+   		&lt;td class="county-icon"&gt;a&lt;/td&gt;
+   		&lt;td&gt;Antrim&lt;/td&gt;
+   		&lt;td&gt;a&lt;/td&gt;
+   	&lt;/tr&gt;
+   	...
+					</pre>
+					<h3>CSS</h3>
+					<pre class="code">
+table tr{	
+	font-size: 1em;	
+}
+.county-icon {
+	font-family: 'countyiconregular';
+	...
+}
+...
+					</pre>
+
+
+					With this in place, wherever a letter from a to z or A to F is used, it will be replaced by the County-Icon glyph for that county.
+					If you are interested in developing using this font then please <a href="https://github.com/funzeye/County" target="_blank">view GitHub</a> for further info.
 				</p>
 				<table>
 

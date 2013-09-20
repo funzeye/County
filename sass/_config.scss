@@ -136,7 +136,7 @@ $offblack 						: rgb(71,63,63);
 $offwhite 						: rgb(234, 239, 235);
 
 // Choose a colour for your hyperlinks. Often this will be the $primarycolor 
-$linkcolor 		    			: $secondarycolor;
+$linkcolor 		    			: #27ae60;
 $linkcolorhover 				: lighten($linkcolor, 10);
 $linkcolorvisited   			: lighten($linkcolorhover, 10);
 $linkcolorfocus 				: lighten($linkcolorvisited, 10);
