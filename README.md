@@ -27,6 +27,7 @@ By default the css file is called styles.css, assuming you keep this name then y
 ```html
 <link rel="stylesheet" href="path/to/county/css/styles.css">
 ```
+All other files apart from the 3 folders can be ignored, they are just there to help create the sample page and to enable you to create your own symbol font.
 I highly recommend minifying any css file that you specify in your html head.
 
 ###Option 2 - Using SASS:
@@ -36,6 +37,7 @@ Inside this download package you will find three folders. One contains the fonts
 ```html
 <link rel="stylesheet" href="path/to/county/css/styles.css">
 ```
+All other files apart from the 3 folders can be ignored, they are just there to help create the sample page and to enable you to create your own symbol font.
 I highly recommend minifying any css file that you specify in your html head.
 
 ###Option 3 - Using CountyCDN:
