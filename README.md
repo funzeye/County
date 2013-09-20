@@ -16,13 +16,11 @@ Contains two different custom svg symbol fonts, both of which comprise the count
 ##Detailed Description
 
 'County' comprises of a pair of symbol fonts, both representing the counties of Ireland. The fonts can be added to your web projects, be styled and modified, using only HTML and CSS. 
-County-Map Font
 
-###County-Map
+###County-Map Font
 County contains two different fonts. The first font is called 'County-Map'. This is a symbol font that allows you to put together a map of Ireland made solely of font symbol glyphs. Each symbol represents a county and when used together all symbols can be fitted together to make up a complete map. Each County can be styled and used independently.
-County-Icon Font
 
-###County-Icon
+###County-Icon Font
 The second font is called 'County-Icon'. This is similar in many ways to the County-Map font in that it is a symbol font that represents the counties of Ireland. It differs from the previous font however, in that it is optimized to be used alongside regular none-symbol fonts and text. Each symbol fits the size of a regular text element in that the heights, widths and positions are approximate to regular text fonts. The County-Map font is not ideal for this type of usage as the County-Map symbols are sized and positioned relatively to the other counties on the map. 
 
 Both fonts have their own unique use cases and some examples can be seen below. Download the Fonts and get started straight away. As wel as the font files, there is sample HTML and CSS included in the download package to help you get started.
