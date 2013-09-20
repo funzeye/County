@@ -22,10 +22,10 @@ This project contains two different fonts. The first font is called 'County-Map'
 ###Option 1 - Using CSS:
 
 Inside this download package you will find three folders. One contains the fonts, one the sass files and one the css which was created from the sass. If you do NOT want to work with sass you can ignore this folder and just import the fonts and css folders into your project only. Inside the css folder you will see how both fonts are set up to be used within your html, along with a small amount of sample css code.
-By default the css file is called county.css, assuming you keep this name then you will import it into your html head section like so:
+By default the css file is called styles.css, assuming you keep this name then you will import it into your html head section like so:
     
 ```html
-<link rel="stylesheet" href="path/to/county/css/county.css">
+<link rel="stylesheet" href="path/to/county/css/styles.css">
 ```
 I highly recommend minifying any css file that you specify in your html head.
 
@@ -34,7 +34,7 @@ I highly recommend minifying any css file that you specify in your html head.
 Inside this download package you will find three folders. One contains the fonts, one the sass files and one the css which was created from the sass. If you DO want ot work with sass you will add all 3 folders into your project. Each font has its own set of sass files for you to work with. The sass files all feed into one master/parent sass file called county.sass. If you compile this sass file to css you will then have all your county font css in that css file. You can then add a link to this css in your html head section like so:
     
 ```html
-<link rel="stylesheet" href="path/to/county/css/county.css">
+<link rel="stylesheet" href="path/to/county/css/styles.css">
 ```
 I highly recommend minifying any css file that you specify in your html head.
 
