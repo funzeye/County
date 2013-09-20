@@ -4,10 +4,10 @@ URL: http://hovercraftstudio.ie
 */
 
 // Media query support required?
-$media-queries-supported : true;
+$media-queries-supported: true;
 
 // Opacity support in IE required via the proprietry ActiveX?
-$ie8-opacity-supported 	 : false;
+$ie8-opacity-supported: false;
 
 // Import all SASS imports
 @import "imports";
