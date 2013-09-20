@@ -667,7 +667,10 @@ URL: http://hovercraftstudio.ie
 .wrap {
   padding: 3em 5em;
   width: 600px;
-  margin: auto; }
+  margin: auto;
+  line-height: 1.8em; }
+  .wrap p {
+    line-height: inherit; }
 
 #county-icon-section {
   *zoom: 1;

@@ -13,6 +13,10 @@ URL: http://hovercraftstudio.ie
     padding: 3em 5em;
     width: 600px;
     margin: auto;
+    line-height:1.8em;
+    p{
+        line-height:inherit;
+    }
 }
 
 #county-icon-section {
