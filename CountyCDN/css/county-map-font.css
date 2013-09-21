@@ -1,0 +1,12 @@
+/** County Map Font Configuration
+*************************************/
+/* 
+Built by @funzeye for @HoverCraftie
+URL: http://hovercraftstudio.ie 
+*/
+@font-face {
+  font-family: "countymapregular";
+  src: url("../fonts/county-map/countymap-webfont.eot");
+  src: url("../fonts/county-map/countymap-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/county-map/countymap-webfont.woff") format("woff"), url("../fonts/county-map/countymap-webfont.ttf") format("truetype"), url("../fonts/county-map/countymap-webfont.svg#countymapregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
