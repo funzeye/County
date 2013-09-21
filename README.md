@@ -73,7 +73,7 @@ By default the css file is called styles.css, assuming you keep this name then y
 ```html
 <link rel="stylesheet" href="path/to/county/css/styles.css">
 ```
-All other files included in the above project, apart from the contents of the 2 folders, can be ignored, they are just there to help create the sample page and to enable you to create your own symbol font.
+All other files included in the above project, apart from the contents of the 2 folders, can be ignored, they are just there to help create the sample page and to enable you to create your own symbol font, if that's something you would be up for doing!
 I highly recommend minifying any css file that you specify in your html head.
 
 ###Option 2 - Using SASS (Pro)
